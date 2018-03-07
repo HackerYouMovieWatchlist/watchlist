@@ -60,7 +60,9 @@ class MovieInfo extends React.Component {
                         <div className="clearfix">
                             <Link to={{
                                 pathname: '/Recommend',
-                                state: { name: this.state.id, }}                  
+                                state: { name: this.state.id,
+                                user: this.state.user,
+                                username: this.state.username }}                  
                                 }
                                 className="mightAlsoLike">
                             Might also like
